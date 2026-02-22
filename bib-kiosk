@@ -1,1 +1,15 @@
-kiosk_config=http://domain.com/files/kiosks.txt
+kiosk_config=https://raw.githubusercontent.com/MSO-WEL/mso-kiosk/refs/heads/main/bib-kiosk
+connection=wired
+dhcp=yes
+browser=firefox
+browser_language=de
+homepage=https://www.marienschule.com
+session_idle=2
+primary_keyboard_layout=de
+disable_navigation_bar=yes
+onscreen_buttons_position=top
+onscreen_buttons=back forward home refresh
+search_engine=duckduckgo
+timezone=Europe/Berlin
+whitelist=marienschule.com
+additional_components=uefi.zip
